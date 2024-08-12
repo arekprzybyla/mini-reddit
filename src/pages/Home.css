@@ -1,0 +1,80 @@
+.default-page-container {
+    padding: 56px 9px 0px 9px;
+    margin-bottom: 150px;
+    margin-left: 184px;
+    margin-right: 184px;
+
+}
+
+.default-page-container-create-post {
+    padding: 56px 9px 0px 9px;
+    margin-bottom: 150px;
+    margin-left: 184px;
+    margin-right: 184px;
+
+}
+
+.default-page-container-home {
+    padding: 56px 9px 0px 9px;
+    margin-bottom: 150px;
+    margin-left: 184px;
+    margin-right: 184px;
+    
+
+}
+
+.default-page-container-favourites {
+    padding: 56px 9px 0px 9px;
+    margin-bottom: 150px;
+    margin-left: 184px;
+    margin-right: 184px;
+}
+
+.main-content-createPost {
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 429px;
+    margin-right: 429px;
+}
+
+.main-content-home {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.home-opening {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+}
+
+.ri-add-line {
+    margin-left: -2px;
+}
+
+.main-content *, .main-content-home *, .main-content-favourites *, .main-content-createPost * {
+    font-size: 16px;
+}
+
+@media (max-width: 1480px) {
+    .main-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

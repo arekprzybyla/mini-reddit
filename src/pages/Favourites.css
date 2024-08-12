@@ -1,0 +1,140 @@
+.favourites-opening {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    max-width: 800px;
+}
+
+.main-content-favourites {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.liked-post {
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 400px;
+}
+
+.fav-seperation {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 800px;
+
+}
+
+.all-following-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.liked-post * {
+    margin: 5px;
+}
+
+.liked-post > h2 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.all-following {
+    max-width: 622px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.following {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.all-liked-posts > p {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.all-following-container > p {
+    margin-top: 0px;
+
+}
+
+.all-liked-posts {
+    max-width: 622px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.favourites-wrapper {
+width: 100%;
+display: flex;
+justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#hidden-opening {
+    display: none;
+}
+
+.alt-p {
+    text-align: center;
+    width: 100%;
+    margin: 0px 20px 40px 20px;
+}
+
+#liked-single-post {
+    max-width: 300px;
+}
+
+@media (max-width: 1050px) {
+    .ri-heart-line, .hidden-h2 {
+        display: none;
+    }
+    .fav-seperation {
+        flex-direction: column;
+    }
+    #hidden-opening {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .all-following {
+        width: auto;
+    }
+
+    .favourites-opening {
+        max-width: 40%;
+    }
+
+    .fav-seperation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+}

@@ -1,0 +1,106 @@
+.sidebar-container {
+    width: 170px;
+    padding-left: 14px;
+    position: fixed;
+    top: 70px;
+    border-right: solid rgb(59, 56, 56) 1px;
+    height: 867px;
+    background-color: #0c0e0f;
+}
+
+.sidebar-container * {
+    letter-spacing: 1px;
+}
+
+.community-name {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.community-title {
+    font-size: 13px;
+    border-bottom: solid rgb(59, 56, 56) 1px;
+    height: 38px;
+    width: 147px;
+    padding-left: 10px;
+    letter-spacing: 5px;
+}
+
+.community {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    width: 155px;
+}
+
+.community:hover {
+    transition: 0.1s;
+    background-color: #080808;
+}
+
+.sidebar-other-titles {
+    font-size: 13px;
+    margin: 0px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+}
+
+
+.sidebar-other {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: solid rgb(59, 56, 56) 1px;
+    width: 156px;
+    border-bottom: solid rgb(59, 56, 56) 1px;
+}
+
+.sidebar-other-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: -8px;
+}
+
+.logo-footer {
+    width: 85px;
+    margin-bottom: -8px;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 14px;
+}
+
+.footer-rights > p {
+    font-size: 8px;
+    letter-spacing: 3px;
+}
+
+.footer-rights {
+    display: flex;
+}
+
+.rights-p {
+    text-align: center;
+}
+
+.community-pic {
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 2px;
+}
+
+.partner-pic {
+    width: 55px;
+}

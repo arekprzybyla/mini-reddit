@@ -1,0 +1,116 @@
+.post {
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    max-width: 635px;
+    width: 100%;
+}
+
+.full-post-post {
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-post-post * {
+    margin: 5px;
+}
+
+.full-post-post > h2 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.post * {
+    margin: 5px;
+}
+
+.post-section-1 {
+    display: flex;
+}
+
+.post > h2 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.post-section-2 {
+    display: flex;
+    align-items: center;
+}
+
+.post-section-2 > img {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.post-section-2 > img:hover {
+    opacity: 40%;
+    transition: 0.1s;
+}
+
+.post-section-2 > p {
+    font-size: 18px;
+    margin: -5px;
+}
+
+.vote-btn {
+    display: flex;
+}
+
+.post-img {
+    max-height: 400px;
+    max-width: 560px;
+}
+
+.img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-count {
+    min-width: 25px;
+    text-align: center;
+}
+
+.comment-fav {
+    width: 25px;
+}
+
+.post-section-2 img:nth-of-type(4) {
+    margin-left: 15px;
+}
+
+.votes {
+    width: 20px;
+    margin: 0px;
+}
+
+.delete-post {
+    width: 30px;
+    margin-right: 7px;
+}
+
+.delete-post:hover {
+    opacity: 40%;
+    transition: 0.1s;
+}
+
+.delete-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    
+}

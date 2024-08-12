@@ -1,38 +1,98 @@
 .App {
-  text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: Column;
+    font-family: Arial, Helvetica, Sans-serif;
+    height: 100%;
+  }
+  
+  button {
+    border-radius: 20px;
+    border: none;
+    background: none;
+    border: 1px solid white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 0px 16px 0px 16px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    opacity: 40%;
+    transition: 0.1s;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: #0c0e0f;
+  }
+
+  * {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .error-page {
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.error-page > h1 {
+  font-size: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.error-page > p {
+  font-size: 22px;
+  margin-top: -40px;
+}
+
+input, textarea {
+  background: none;
+border: none;
+}
+
+@media (max-width: 690px) {
+  .sidebar-container {
+      display: none;
+  }
+
+  .default-page-container {
+      margin: 0px 184px 50px 0px;
+  }
+
+  .default-page-container-favourites {
+      margin: 0px 0px 50px 0px;
+  }
+
+ .default-page-container-home {
+       margin: 0px 0px 50px 0px;
+  }
+
+  .default-page-container-create-post {
+       margin: 0px 0px 50px 0px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 510px) {
+  .default-page-container {
+      margin: 280px 0px 50px 0px;
   }
-  to {
-    transform: rotate(360deg);
+  .community-profile {
+      transform: translate(-50%, -50%);
+      top: 210px;
+      left: 50%;
+  }
+  .nav-outer > img, .ri-hearts-line, .search-container {
+      display: none;
+  }
+  #burger-menu {
+      display: block;
   }
 }

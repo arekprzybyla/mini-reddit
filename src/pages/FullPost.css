@@ -1,0 +1,132 @@
+.full-post-opening {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+}
+
+.full-post-section {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comments-opening {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+
+}
+
+.each-comment {
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.each-comment * {
+    margin: 4px;
+}
+
+.comment-form * {
+    margin: 4px;
+}
+
+.each-comment > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.each-comment > div > div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.each-comment > div > div:hover {
+    opacity: 40%;
+    transition: 0.1s;
+}
+
+.each-comment > div {
+    display: flex;
+    align-items: center;
+}
+
+.each-comment > div > div > img {
+    padding: 1px;
+}
+
+.user-ava {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    max-height: 38px;
+    padding: 15px;
+}
+
+.comment-form > input::placeholder {
+    text-align: center;
+    align-items: center;
+}
+
+.comment-form > input {
+    text-align: center;
+    margin: 10px 10px 13px 10px;
+    border-radius: 25px;
+    height: 27px;
+    border: solid white 1px;
+    padding: 5px;
+}
+
+.comment-form > div {
+    display: flex;
+    align-items: center;
+}
+
+.comment-form > div > h2 {
+    margin-right: 15px;
+}
+
+.comment-form > div > img {
+    padding: 1px;
+}
+
+.delete-post {
+    margin-bottom: 0px;
+}
+
+.full-post-line {
+    width: 300px;
+    margin: 16px;
+}
+
+.each-comment {
+    text-align: center;
+}
+
+.if-no-comments {
+    margin-bottom: 0px;
+}
+
+.comment-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

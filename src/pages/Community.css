@@ -1,0 +1,98 @@
+.community-profile {
+    position: fixed;
+    top: 80px;
+    left: 248px;
+    width: 330px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-profile-pic {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.follow-community-btn {
+    background-color: rgb(7, 39, 65);
+}
+
+.btn-active {
+    opacity: 100%;
+    pointer-events: auto;
+}
+
+.btn-inactive {
+    opacity: 40%;
+    pointer-events: none;
+    cursor: none;
+}
+
+#communitybtn-active {
+    opacity: 40%;
+    width: 82px;
+}
+
+#communitybtn-inactive {
+    opacity: 100%;
+}
+
+.all-posts-section > p {
+   text-align: center; 
+   margin-top: 30px;
+}
+
+.community-posts {
+    max-width: 800px;
+}
+
+@media (max-width: 1480px) {
+    .community-profile {
+       right: 40px;
+        left: auto;
+    }
+}
+
+@media (max-width: 1400px) {
+    .community-profile {
+       right: 20px;
+        left: auto;
+    }
+}
+
+@media (max-width: 1335px) {
+    .community-profile {
+       right: -10px;
+        left: auto;
+    }
+}
+
+@media (max-width: 1270px) {
+    .community-profile-pic, .community-profile-name {
+       scale: 0.9;
+    }
+
+    .community-profile {
+        left: auto;
+        right: -30px;
+     }
+
+     .community-profile-pic {
+        margin-bottom: -15px;
+     }
+}
+
+@media (max-width: 1158px) {
+    .community-profile-pic, .community-profile-name {
+        scale: 0.8;
+    }
+    .community-profile {
+        left: auto;
+        right: -60px;
+     }
+     .community-profile-pic {
+        margin-bottom: -25px;
+     }
+}
