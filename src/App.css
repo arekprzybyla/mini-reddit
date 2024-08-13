@@ -88,6 +88,7 @@ border: none;
       transform: translate(-50%, -50%);
       top: 210px;
       left: 50%;
+      position: absolute;
   }
   .nav-outer > img, .ri-hearts-line, .search-container {
       display: none;
